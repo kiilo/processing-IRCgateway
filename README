@@ -1,8 +1,27 @@
+<h1>proccessing OSC IRC gateway</ h1>
+
+this gateway was used in my workshop "internet of the things" @ NTUA TW 2010.playaround.cc
+
 Move this folder to your processing sketches folder and restart processing
 the project IrcGateway will be accessible under /File/Sketchebook/IrcGateway
 
-all neccessary liberies are included in the right place move just the whole 
+all neccessary liberies are included in the right place, move just the whole 
 folder!
 
+edit the config pane in processing 
+
+<h2>documentation</h2>
+http://2010.playaround.cc/tiki-index.php?page=IrcGateway 
+
+good luck
 kiilo
+
+http://kiilo.org
+http://2010.playaround.cc
+
+
+TODO 
+* sanitize activity log
+* sanitize osc messages (puredata doesn't like UTF8)
+* make spliting of text  otional (QuarzComposer has a very limited idea about OSC)
 
